@@ -31,6 +31,8 @@ display: flex;
     color: #fff;
     margin-bottom: 36px;
     line-height: 80px;
+    width: 485px;
+height: 230px;
   ;
 }
 .header-title a{
@@ -263,5 +265,5 @@ width: 480px;
         width: 370px;
         height: 140px;
         
-
+    }
 }
