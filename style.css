@@ -10,11 +10,9 @@ body{
 
 
 
-/* hover-part */
-.header-title a:hover{
-    background-image: linear-gradient(tomato,orange);
-    color: black;
-}
+
+
+
 .header-section{
     background: #2D25A0;
 }
@@ -47,7 +45,7 @@ body{
 }
 
 .header-section .content-area .left-side h2 {
-    font-family: poppins;
+    
     font-size: 64px;
     font-weight: 700;
     color: #fff;
@@ -226,49 +224,29 @@ width: 480px;
     font-size: 18px;
 }
 
+/* media-query */
 
-
-
-/* mediaquery-responsive */
-
-@media only screen  and (max-width:688px) {
+@media only screen and (max-width:500%) {
     .container{
         width: 100%;
     }
-   
-     {
-    }
     .header-section{
+
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .content-area{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-       
-        
+      
     }
-   .contact-player, .all-player-details, .top-player {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
+    main{
+        display: none;
     }
+.content-area{
+    padding: 0;
+}
     
-    .header-banner img{
-        padding: 0;
-        margin-top: 20px;
-        width: 329px;
-        height: 260px;
-    }
-    .header-title{
-        padding: 10px;
-        
-    }
-    
-    .flexible-footer{
-        width: 90%;
-        
-    }
-    .contact{
-        width: 370px;
-        height: 140px;
-        
-    }
 }
