@@ -293,6 +293,7 @@ width: 480px;
 
         .flexible-footer{
             margin-top: 150px;
+            padding: 0;
                 display: flex;
             flex-direction: column;
             justify-content: center;
